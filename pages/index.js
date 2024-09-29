@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
@@ -11,7 +12,7 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Lis <a href="/articles/article-premier">cette page!</a>
         </h1>
 
         <p className={styles.description}>
@@ -51,12 +52,12 @@ export default function Home() {
 
       <footer>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://miakassissa.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
+          <span style={{ color: 'white' }}>Powered by</span>{' '}
+          <img src="/miakassissa_lentrepreneur_kongo_logo_web.png" alt="Suprême Marketing" />
         </a>
       </footer>
 
@@ -76,6 +77,8 @@ export default function Home() {
           display: flex;
           justify-content: center;
           align-items: center;
+          background: #000000;
+          color: "#FFFFFF;"
         }
         footer img {
           margin-left: 0.5rem;
