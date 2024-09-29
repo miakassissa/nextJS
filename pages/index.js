@@ -78,7 +78,6 @@ export default function Home() {
           justify-content: center;
           align-items: center;
           background: #000000;
-          color: "#FFFFFF;"
         }
         footer img {
           margin-left: 0.5rem;
