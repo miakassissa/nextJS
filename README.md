@@ -1,1 +1,2 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# nextJS
+A NextJS App. Goal: To test the deployment of a NextJS App on EC2 (AWS)...
